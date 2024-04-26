@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Crimson Pro', serif;
+}
+h1{
+    font-size: 50px;
+}
+.name-heiglight{
+    color: orange;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image:url(images/top-banner.png) ;
+    background-repeat: no-repeat;
+
+}
+section{
+   height: 500px;
+   padding-bottom: 150px;
+}
+
+.link-button{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+}
+
+.mid-section {
+    height: 500px;
+    float: left;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mid-section img{
+    width: 100%;
+}
+
+.single-experiance{
+    box-shadow:10px 10px 40px gray ;
+    border-radius: 10px;
+    height: 40%;
+    padding: 10PX;
+}
+.exparience-arieammm{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150PX;
+   
+ 
+}
+
+#Full-stock{
+    border-left: 7px solid;
+    border-image:  linear-gradient(45deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+#beby-dev{
+    border-left: 7px solid;
+    border-image:  linear-gradient(45deg, rgb(168, 122, 255),rgb(71, 212, 255));
+    border-image-slice: 1;
+
+}
